@@ -23,6 +23,6 @@ let age = "31";
 age = Number(age);
 console.log(typeof age);
 
-// YPE COERCION
+// TYPE COERCION
 // cuando JS cambia los tipo automaticamente
 console.log("i'm " + age + " years");
