@@ -26,3 +26,19 @@ console.log(typeof age);
 // TYPE COERCION
 // cuando JS cambia los tipo automaticamente
 console.log("i'm " + age + " years");
+
+// statements and exprecions
+// statements = producen un valor
+3 + 4;
+1991;
+true && false && !false;
+
+// expecion no producen un valor
+if (30 < 10) {
+  const str = "30 is bigger";
+}
+
+// ternary operator
+age = 19;
+const drink = age > 18 ? "Wine 🍷" : "Water 💧";
+console.log(drink);
