@@ -39,6 +39,8 @@ if (30 < 10) {
 }
 
 // ternary operator
-age = 19;
+age = 18;
 const drink = age > 18 ? "Wine 🍷" : "Water 💧";
 console.log(drink);
+
+console.log(`I like to drink ${age > 18 ? "Wine 🍷" : "Water 💧"}`);
